@@ -6249,3 +6249,10 @@ a.badge:hover {
   padding: 10px 10px 10px;
   font-size: 20px;
 }
+
+      /* ADDITIONAL: HONEYPOT
+    -------------------------------------------------- */
+
+.hide {
+	display: none;
+}
