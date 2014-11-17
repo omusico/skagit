@@ -72,10 +72,12 @@
 				</p>	
 				
 				<!-- honeypot -->
+
 				<div class="hide">
     				<label for="spam">(NOTE: Leave this blank if you are human!) What is two plus two?</label>
     				<input id="spam" name="spam" type="text" size="4">
 				</div> <!-- /hide -->
+				
 	   		</div> <!-- /span6 -->
     		
     		<div class="span6">
