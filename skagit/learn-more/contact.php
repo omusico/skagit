@@ -43,7 +43,8 @@
 <!-- <br><br> -->
         </div>
     </div>  
-	<form name="contactForm" id="contactForm" action="/webformmailer.php" method="post" class="form-horizontal">
+    <!-- action="../webformmailer.php"-->
+	<form name="contactForm" id="contactForm" action="../includes/honeypot.php" method="post" class="form-horizontal">
     	<input type="hidden" name="subject" value="Contact" />
     	<input type="hidden" name="required" value="email">
 		<input type="hidden" name="redirect" value="/learn-more/thankyou-contact.php" />
@@ -87,9 +88,9 @@
 				</p>
 				<!-- honeypot -->
 
-				<div class="hide">
-    				<label for="spam">(NOTE: Leave this blank if you are human!) What is two plus two?</label>
-    				<input id="spam" name="spam" type="text" size="4">
+				<div class="hide" id = "pot">
+    				<label for="robotest">(NOTE: Leave this blank if you are human!) What is 1000 plus two?</label>
+    				<input id="robotest" name="robotest" class="robotest" type="text" size="4">
 				</div> <!-- /hide -->
 
 			</div> <!-- /span6 -->

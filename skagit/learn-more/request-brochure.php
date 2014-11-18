@@ -30,7 +30,8 @@
 <!--        	<br><br> -->
         </div> <!-- /span12 -->
     </div> <!-- / row-fluid -->  
-    <form name="contactForm" id="contactForm" action="/webformmailer.php" method="post" class="form-horizontal">
+    <!-- action="../webformmailer.php"-->
+    <form name="contactForm" id="contactForm" action="../includes/honeypot.php" method="post" class="form-horizontal">
     	<input type="hidden" name="subject" value="Brochure Request" />
     	<input type="hidden" name="redirect" value="/learn-more/thankyou-contact.php" />
 		<div class="row-fluid">    
@@ -74,8 +75,8 @@
 				<!-- honeypot -->
 
 				<div class="hide">
-    				<label for="spam">(NOTE: Leave this blank if you are human!) What is two plus two?</label>
-    				<input id="spam" name="spam" type="text" size="4">
+    				<label for="robotest">(NOTE: Leave this blank if you are human!) What is two plus two?</label>
+    				<input id="robotest" name="robotest" class="robotest" type="text" size="4">
 				</div> <!-- /hide -->
 				
 	   		</div> <!-- /span6 -->
