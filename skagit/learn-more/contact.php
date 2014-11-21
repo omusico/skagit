@@ -9,8 +9,7 @@
 	<script src="/js/jquery1.7.1.js" type="text/javascript"></script>
 	<!-- Stylesheet links, Scripts, begins Body, Wrapper, Navigation, and Container Div -->
 	<?php
-		include('../includes/header.php'); 
-		include('../includes/honeypot.php');
+		include('../includes/header.php');
 	?>
 
 	<!-- Image -->  
@@ -44,7 +43,7 @@
         </div>
     </div>  
     <!-- action="../webformmailer.php"-->
-	<form name="contactForm" id="contactForm" action="../includes/honeypot.php" method="post" class="form-horizontal">
+	<form name="contactForm" id="contactForm" action="../includes/honeypot-contact.php" method="post" class="form-horizontal">
     	<input type="hidden" name="subject" value="Contact" />
     	<input type="hidden" name="required" value="email">
 		<input type="hidden" name="redirect" value="/learn-more/thankyou-contact.php" />
