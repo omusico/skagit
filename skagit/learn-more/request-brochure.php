@@ -10,7 +10,6 @@
 	<!-- Stylesheet links, Scripts, begins Body, Wrapper, Navigation, and Container Div -->
 	<?php 
 		include('../includes/header.php');
-		include('../includes/honeypot.php');
 	?>
    
 	<!-- Image -->  
@@ -31,7 +30,7 @@
         </div> <!-- /span12 -->
     </div> <!-- / row-fluid -->  
     <!-- action="../webformmailer.php"-->
-    <form name="contactForm" id="contactForm" action="../includes/honeypot.php" method="post" class="form-horizontal">
+    <form name="contactForm" id="contactForm" action="../includes/honeypot-request-brochure.php" method="post" class="form-horizontal">
     	<input type="hidden" name="subject" value="Brochure Request" />
     	<input type="hidden" name="redirect" value="/learn-more/thankyou-contact.php" />
 		<div class="row-fluid">    
