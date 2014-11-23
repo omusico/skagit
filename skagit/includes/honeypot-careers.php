@@ -8,10 +8,10 @@ if ($_POST) {
 	$robotest = $_POST['robotest'];
  
     	if($robotest) {
-    		header('Location: ../learn-more/request-brochure.php');
+    		header('Location: ../learn-more/careers.php');
     	}
     	else
-    		header('Location: ../learn-more/thankyou-contact.php');
+    		header('Location: ../learn-more/thankyou-career.php');
     		die();
 }
 ?>
